@@ -1,0 +1,222 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  
+
+}
+header{
+    height: 4.725rem;
+    width: 100%;
+    background: #ffffff; 
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .07);
+    display: flex;
+    align-items: center;
+    border-bottom: 1 px solid #f6f6f6;
+}
+img{
+    width: 5.125rem;
+    margin-right: 1.25rem;
+    height:65;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 94%;
+    margin: 0 auto;
+}
+.nav-left , .nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ .nav-left ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 12px;
+    font-weight: 580;
+    font-style: normal;
+    color: rgb(42, 41, 41);
+    font-size: 12.8px; 
+
+ } 
+.nav-menu a{
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 580;
+    font-style: normal;
+    color: rgb(42, 41, 41);
+    font-size: 12.8px;
+    text-decoration: none;
+    padding: 26px 0;
+    border-bottom: 4px solid #fff;
+
+
+}
+.nav-menu a:hover{
+    border-bottom: 4px solid #f54e77;
+}
+.search-bar{
+    background: red;
+    width:350px;
+    line-height: 40px;
+    border-radius: 4px;
+    background: #f0eeee;
+}
+.search-bar input{
+    background:transparent;
+    border: 0;
+    outline: none;
+    width: 85%;
+    font-size: 12px;
+}
+.nav-right .search-bar i{
+    font-size: 13px;
+    color: #727070;
+    margin-right: 15px;
+    margin-left: 10px;
+
+}
+.new{
+    position: relative;
+}
+.new span{
+    position: absolute;
+    left: 50px;
+    color:#ff3f6c;
+    top: -5px;
+    bottom: 2px;
+    font-size: 10px;  
+}
+.nav-right div{
+    margin: 0 10px;
+    text-align: center;
+}
+.nav-right div p{
+    font-size: 12px;
+    font-style: italic bold;
+    font-weight: 520;
+}
+.nav-right div i{
+    font-size: 18px;
+
+}
+.nav-left i{
+    font-size: 20px;
+    background-color: #f1efef;
+    padding: 10px;
+    border-radius: 70%;
+    display: none;
+}
+
+
+/* Media queries */
+@media only screen and (max-width:43.75rem){
+    .nav-menu{
+        display: none;
+    }
+    .nav-left i{
+    display: block;
+}
+img{
+    width: 40px;
+    margin-right: 10px;
+}
+header{
+    height: 60px;
+}
+.search-bar{
+    position: absolute;
+    top:70px ;
+    left: 0;
+    width: 100%;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #eee;
+}
+.nav-right div{
+    margin: 0 7px;
+}
+.nav-right div p{
+    font-size: 10px;
+}
+
+
+}  
+
+/* ....Media queries for tablet screen */
+
+
+  /* @media only screen and (max-width:1280px){
+    .nav-menu{
+        display: none;
+    }
+    .nav-left i{
+    display: block;
+}
+}
+header{
+    height: 60px;
+}
+.search-bar{
+    position: absolute;
+    top:70px ;
+    left: 0;
+    width: 100%;
+    border-radius: 50px;
+    background: #fff;
+    border: 1px solid #eee;
+}   */
+
+/* .....CSS OF MAIN SECTION */
+.banner-container{
+    display: flex;
+    /* flex-direction: row; */
+    width: 100%;
+    gap:0;
+    overflow: hidden;
+    font-size: 0;
+}
+.banner-container img{
+    width: 50%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    margin: 50px 0 0 0 ;
+    
+}
+.banner{
+    display: block;
+
+    width: 70%;
+    margin: 30px auto auto;
+    object-fit: cover;
+    max-width: 100%;
+}
+.image{
+    display: block;
+    width: 80%;
+    margin: 0 110px;
+    object-fit: cover;
+}
+.category{
+    width: 70%;
+    margin: 20px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
